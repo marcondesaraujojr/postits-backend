@@ -1,7 +1,6 @@
 {
   "name": "postits-backend",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "serverless offline start"
@@ -16,9 +15,22 @@
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.24.1",
+    "serverless-dotenv-plugin": "^3.1.0",
     "serverless-offline": "^6.8.0",
     "serverless-webpack": "^5.3.5",
     "webpack": "^5.16.0",
     "webpack-node-externals": "^2.5.2"
-  }
+  },
+  "dependencies": {
+    "mongoose": "^5.13.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcondesaraujojr/postits-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcondesaraujojr/postits-backend/issues"
+  },
+  "homepage": "https://github.com/marcondesaraujojr/postits-backend#readme",
+  "description": ""
 }
